@@ -1,0 +1,54 @@
+name: resume
+description: "resume app"
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.2.4
+  #ui
+  cupertino_icons: ^1.0.2
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/lottie/
+    - assets/images/
+    - assets/social_media/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/font/Montserrat-Black.ttf
+        - asset: assets/font/Montserrat-BlackItalic.ttf
+        - asset: assets/font/Montserrat-Bold.ttf
+        - asset: assets/font/Montserrat-BoldItalic.ttf
+        - asset: assets/font/Montserrat-ExtraBold.ttf
+        - asset: assets/font/Montserrat-ExtraBoldItalic.ttf
+        - asset: assets/font/Montserrat-ExtraLight.ttf
+        - asset: assets/font/Montserrat-ExtraLightItalic.ttf
+        - asset: assets/font/Montserrat-Italic.ttf
+        - asset: assets/font/Montserrat-Light.ttf
+        - asset: assets/font/Montserrat-LightItalic.ttf
+        - asset: assets/font/Montserrat-Medium.ttf
+        - asset: assets/font/Montserrat-MediumItalic.ttf
+        - asset: assets/font/Montserrat-Regular.ttf
+        - asset: assets/font/Montserrat-SemiBold.ttf
+        - asset: assets/font/Montserrat-SemiBoldItalic.ttf
+        - asset: assets/font/Montserrat-Thin.ttf
+        - asset: assets/font/Montserrat-ThinItalic.ttf
+
