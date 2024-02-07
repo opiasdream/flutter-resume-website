@@ -17,14 +17,13 @@ class ProjectCard extends StatefulWidget {
 }
 
 class _ProjectCardState extends State<ProjectCard> {
-  // this project data
+  // widget.project
   late Project project;
   // hover
   ValueNotifier<bool> onHover = ValueNotifier<bool>(false);
-
-  // app icon image provider
+  // project icon image provider
   late ImageProvider appIconImageProvider;
-  // text color by app icon [imageProvider]
+  // text color by project icon [imageProvider]
   Color? color;
 
   @override
@@ -37,8 +36,10 @@ class _ProjectCardState extends State<ProjectCard> {
 
   @override
   void dispose() {
+    color;
     project;
     onHover.dispose();
+    appIconImageProvider;
     super.dispose();
   }
 
