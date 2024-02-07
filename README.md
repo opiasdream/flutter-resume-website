@@ -1,6 +1,8 @@
 # resume
 
-A new Flutter project.
+portfolio/resume website made with flutter.
+
+![screenshot](ss/ss1.png)
 
 ## Getting Started
 

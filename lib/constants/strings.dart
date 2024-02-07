@@ -1,6 +1,8 @@
+const section1Title = "Hi!";
+const section2Title = "Projects";
+
 // buttons
 const ok = "Ok";
-const retry = "Retry";
 
 /// errrors
 const error = "Error!";
